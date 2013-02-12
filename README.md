@@ -6,4 +6,4 @@ This is a sample project that depicts a
 
 behavior used as a reference for the [How to debug a "Class JKSerializer is implemented in both" case][1] post.
 
-[1]: http://forr.st/~Hkt
+[1]: http://forrst.com/posts/How_to_debug_a_Class_JKSerializer_is_implemente-Hkt
