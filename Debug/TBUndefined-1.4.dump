@@ -493,7 +493,7 @@ typedef struct {
 
 @end
 
-@interface gKSerializer : NSObject
+@interface JKSerializer : NSObject
 {
     struct JKEncodeState {
         struct JKManagedBuffer;
