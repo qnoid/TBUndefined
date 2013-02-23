@@ -83,7 +83,6 @@
 		BDF0F45616C9890A002CDE8E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BDF0F45E16C9890A002CDE8E /* TBUndefinedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBUndefinedTests-Info.plist"; sourceTree = "<group>"; };
 		BDF0F46016C9890A002CDE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BDF0F46216C9890A002CDE8E /* TBUndefinedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBUndefinedTests.h; sourceTree = "<group>"; };
 		BDF0F46316C9890A002CDE8E /* TBUndefinedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBUndefinedTests.m; sourceTree = "<group>"; };
 		BDF0F46D16C98991002CDE8E /* BugSense-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "BugSense-iOS.framework"; path = "External/BugSense-iOS.framework"; sourceTree = "<group>"; };
 		BDF0F47016C989DB002CDE8E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -195,7 +194,6 @@
 		BDF0F45C16C9890A002CDE8E /* TBUndefinedTests */ = {
 			isa = PBXGroup;
 			children = (
-				BDF0F46216C9890A002CDE8E /* TBUndefinedTests.h */,
 				BDF0F46316C9890A002CDE8E /* TBUndefinedTests.m */,
 				BDF0F45D16C9890A002CDE8E /* Supporting Files */,
 			);
@@ -589,6 +587,7 @@
 				BDF0F46916C9890A002CDE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDF0F46A16C9890A002CDE8E /* Build configuration list for PBXNativeTarget "TBUndefinedTests" */ = {
 			isa = XCConfigurationList;
@@ -597,6 +596,7 @@
 				BDF0F46C16C9890A002CDE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDF0F49A16C9A9FE002CDE8E /* Build configuration list for PBXNativeTarget "JSONKit" */ = {
 			isa = XCConfigurationList;
@@ -605,6 +605,7 @@
 				BDF0F49C16C9A9FE002CDE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

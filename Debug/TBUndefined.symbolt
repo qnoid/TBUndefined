@@ -1,0 +1,1415 @@
+0000a471 t +[BSAFHTTPRequestOperation networkRequestThreadEntryPoint:]
+0000a340 t +[BSAFHTTPRequestOperation networkRequestThread]
+0005fc30 b +[BSAFHTTPRequestOperation networkRequestThread].oncePredicate
+0000a58e t +[BSAFHTTPRequestOperation operationWithRequest:completion:]
+0000a600 t +[BSAFHTTPRequestOperation operationWithRequest:inputStream:outputStream:completion:]
+0000a502 t +[BSAFHTTPRequestOperation operationWithRequest:observer:]
+0000c3e5 t +[BSAFJSONRequestOperation defaultAcceptableContentTypes]
+0000c3ac t +[BSAFJSONRequestOperation defaultAcceptableStatusCodes]
+0000bc61 t +[BSAFJSONRequestOperation operationWithRequest:acceptableStatusCodes:acceptableContentTypes:success:failure:]
+0000ba60 t +[BSAFJSONRequestOperation operationWithRequest:success:]
+0000ba9c t +[BSAFJSONRequestOperation operationWithRequest:success:failure:]
+0000c45e t +[BSAFNetworkActivityIndicatorManager sharedManager]
+0005fc3c b +[BSAFNetworkActivityIndicatorManager sharedManager]._sharedManager
+0005fc40 b +[BSAFNetworkActivityIndicatorManager sharedManager].oncePredicate
+0000caad t +[BSAFRestClient baseURL]
+0001b052 t +[BSOpenUDID _generateFreshOpenUDID]
+0001af7a t +[BSOpenUDID _getDictFromPasteboard:]
+0001af25 t +[BSOpenUDID _setDict:forPasteboard:]
+0001bab6 t +[BSOpenUDID setOptOut:]
+0001b247 t +[BSOpenUDID valueWithError:]
+0001b216 t +[BSOpenUDID value]
+0001aca0 t +[BSReachability reachabilityForInternetConnection]
+0001acdc t +[BSReachability reachabilityForLocalWiFi]
+0001ac1c t +[BSReachability reachabilityWithAddress:]
+0001ab84 t +[BSReachability reachabilityWithHostName:]
+0001bc02 t +[BugSenseAnalyticsGenerator analyticsDataWithTag:]
+0001be97 t +[BugSenseAnalyticsGenerator analyticsObjectFromData:]
+0001bf11 t +[BugSenseAnalyticsGenerator analyticsObjectFromString:]
+00003ddb t +[BugSenseController allocWithZone:]
+0000279d t +[BugSenseController apiKey]
+00002781 t +[BugSenseController endpointURL]
+000035e4 t +[BugSenseController leaveBreadcrumb:]
+00002b33 t +[BugSenseController logException:withExtraData:]
+00003521 t +[BugSenseController sendCustomEventWithTag:]
+000032d1 t +[BugSenseController sendEventWithTag:]
+000027fc t +[BugSenseController setFixNotificationsTitle:message:]
+000027d4 t +[BugSenseController setLogMessagesCount:]
+000027e8 t +[BugSenseController setLogMessagesLevel:]
+000027ae t +[BugSenseController setUsesProxy:]
+00003aac t +[BugSenseController sharedControllerWithBugSenseAPIKey:]
+0000382b t +[BugSenseController sharedControllerWithBugSenseAPIKey:endpointURL:userDictionary:sendImmediately:]
+0005f620 b +[BugSenseController sharedControllerWithBugSenseAPIKey:endpointURL:userDictionary:sendImmediately:].oncePredicate
+00003a70 t +[BugSenseController sharedControllerWithBugSenseAPIKey:userDictionary:]
+00003a2c t +[BugSenseController sharedControllerWithBugSenseAPIKey:userDictionary:sendImmediately:]
+00003ae1 t +[BugSenseController sharedController]
+00002f60 t +[BugSenseController startSession]
+00002fb2 t +[BugSenseController stopSession]
+000027c2 t +[BugSenseController usesProxy]
+000095d0 t +[BugSenseDataDispatcher pendingDispatchesCount]
+00009c36 t +[BugSenseDataDispatcher postAnalyticsData:withAPIKey:delegate:]
+000095e1 t +[BugSenseDataDispatcher postJSONData:withAPIKey:delegate:showFeedback:]
+00005bef t +[BugSenseJSONGenerator IPAddress]
+00006367 t +[BugSenseJSONGenerator JSONDataFromCrashReport:userDictionary:additionalInfo:]
+000087cd t +[BugSenseJSONGenerator JSONDataFromException:userDictionary:additionalInfo:]
+00005a43 t +[BugSenseJSONGenerator applicationBuildNumberForReport:]
+00005aaf t +[BugSenseJSONGenerator applicationBuildNumber]
+00005839 t +[BugSenseJSONGenerator applicationNameForReport:]
+00005955 t +[BugSenseJSONGenerator applicationName]
+00005b32 t +[BugSenseJSONGenerator applicationVersionNumberForReport:]
+00005b6c t +[BugSenseJSONGenerator applicationVersionNumber]
+000060ad t +[BugSenseJSONGenerator carrierName]
+00005cc4 t +[BugSenseJSONGenerator device]
+000058c7 t +[BugSenseJSONGenerator executableNameForReport:]
+000059ea t +[BugSenseJSONGenerator executableName]
+00005828 t +[BugSenseJSONGenerator frameworkPlatform]
+00005817 t +[BugSenseJSONGenerator frameworkVersion]
+0000615e t +[BugSenseJSONGenerator languagesForReport:]
+00006261 t +[BugSenseJSONGenerator languages]
+0001c2a3 t +[BugSensePersistence bugsenseDirectory]
+0001d9a8 t +[BugSensePersistence crashReportExists:]
+0001c308 t +[BugSensePersistence createDirectoryStructure]
+0001d978 t +[BugSensePersistence lineIsSimilar:toLine:]
+0001c468 t +[BugSensePersistence pendingCrashReportsStorePath]
+0001d621 t +[BugSensePersistence pendingCrashReports]
+0001c3e0 t +[BugSensePersistence pendingPingsStorePath]
+0001c8be t +[BugSensePersistence pendingPings]
+0001c424 t +[BugSensePersistence pendingTicksStorePath]
+0001cda7 t +[BugSensePersistence pendingTicks]
+0001d667 t +[BugSensePersistence queueCrashReport:]
+0001c904 t +[BugSensePersistence queuePing:]
+0001cded t +[BugSensePersistence queueTick:]
+0001d706 t +[BugSensePersistence sendAllPendingCrashReports]
+0001c980 t +[BugSensePersistence sendAllPendingPings]
+0001ce69 t +[BugSensePersistence sendAllPendingTicks]
+0001d113 t +[BugSensePersistence sendOrQueueCrashReport:]
+0001c4ac t +[BugSensePersistence sendOrQueuePing:]
+0001cc2a t +[BugSensePersistence sendOrQueueTick:]
+0001d1ca t +[BugSensePersistence writeCrashReportsToFile:]
+0001c57b t +[BugSensePersistence writePingsToFile:]
+0001ccf9 t +[BugSensePersistence writeTicksToFile:]
+00005634 t +[BugSenseSymbolicator clearSymbols]
+00005101 t +[BugSenseSymbolicator populateSymbolsDirectoryAndReturnError:]
+000051f6 t +[BugSenseSymbolicator retainSymbolsForStackFrames:inReport:]
+00005696 t +[BugSenseSymbolicator symbolAndOffsetForInstructionPointer:]
+00005036 t +[BugSenseSymbolicator symbolsDirectory]
+0002ae20 t +[JKArray allocWithZone:]
+0000df0c t +[JKArray allocWithZone:]
+0002ad30 t +[JKArray load]
+0002df30 t +[JKDictionary allocWithZone:]
+0000f818 t +[JKDictionary allocWithZone:]
+0002de40 t +[JKDictionary load]
+0002bd10 t +[JKMutableArray load]
+0002f540 t +[JKMutableDictionary load]
+000126fb t +[JKSerializer serializeObject:options:encodeOption:block:delegate:selector:error:]
+00032450 t +[JKSerializer serializeObject:options:encodeOption:error:]
+00010f49 t +[JSONDecoder decoderWithParseOptions:]
+00030a00 t +[JSONDecoder decoderWithParseOptions:]
+000309b0 t +[JSONDecoder decoder]
+00010f1b t +[JSONDecoder decoder]
+00030870 t +[JSONDecoder load]
+0001faad t +[NSData(_AFNetworking) dataByTransformingData:usingGZipOperation:error:]
+00028ad0 t +[PLCrashReportTextFormatter stringValueForCrashReport:withTextFormat:]
+0002a6d1 t +[PLCrashReportTextFormatter(PrivateMethods) formatStackFrame:frameIndex:report:]
+0002286a t +[PLCrashReporter sharedReporter]
+0001fe7c t +[PLCrashSignalHandler sharedHandler]
+0000b012 t -[BSAFHTTPRequestOperation cancel]
+0000b9e7 t -[BSAFHTTPRequestOperation completion]
+0000b4c5 t -[BSAFHTTPRequestOperation connection:didFailWithError:]
+0000b247 t -[BSAFHTTPRequestOperation connection:didReceiveData:]
+0000b130 t -[BSAFHTTPRequestOperation connection:didReceiveResponse:]
+0000b522 t -[BSAFHTTPRequestOperation connection:didSendBodyData:totalBytesWritten:totalBytesExpectedToWrite:]
+0000b572 t -[BSAFHTTPRequestOperation connection:willCacheResponse:]
+0000b3e3 t -[BSAFHTTPRequestOperation connectionDidFinishLoading:]
+0000b5ec t -[BSAFHTTPRequestOperation connection]
+0000b83f t -[BSAFHTTPRequestOperation dataAccumulator]
+0000a83b t -[BSAFHTTPRequestOperation dealloc]
+0000b96e t -[BSAFHTTPRequestOperation downloadProgress]
+0000b758 t -[BSAFHTTPRequestOperation error]
+0000b068 t -[BSAFHTTPRequestOperation finish]
+0000a781 t -[BSAFHTTPRequestOperation initWithRequest:]
+0000b5ba t -[BSAFHTTPRequestOperation isCancelled]
+0000acd4 t -[BSAFHTTPRequestOperation isConcurrent]
+0000ac5a t -[BSAFHTTPRequestOperation isExecuting]
+0000ac89 t -[BSAFHTTPRequestOperation isFinished]
+0000ac2b t -[BSAFHTTPRequestOperation isReady]
+0000adb0 t -[BSAFHTTPRequestOperation operationDidStart]
+0000b89a t -[BSAFHTTPRequestOperation outputStream]
+0000b6a2 t -[BSAFHTTPRequestOperation request]
+0000b7b3 t -[BSAFHTTPRequestOperation responseBody]
+0000abb7 t -[BSAFHTTPRequestOperation responseString]
+0000b6fd t -[BSAFHTTPRequestOperation response]
+0000b647 t -[BSAFHTTPRequestOperation runLoopModes]
+0000ba1c t -[BSAFHTTPRequestOperation setCompletion:]
+0000b603 t -[BSAFHTTPRequestOperation setConnection:]
+0000b856 t -[BSAFHTTPRequestOperation setDataAccumulator:]
+0000b9a3 t -[BSAFHTTPRequestOperation setDownloadProgress:]
+0000a996 t -[BSAFHTTPRequestOperation setDownloadProgressBlock:]
+0000b76f t -[BSAFHTTPRequestOperation setError:]
+0000b5d2 t -[BSAFHTTPRequestOperation setIsCancelled:]
+0000b8b1 t -[BSAFHTTPRequestOperation setOutputStream:]
+0000b6b9 t -[BSAFHTTPRequestOperation setRequest:]
+0000b714 t -[BSAFHTTPRequestOperation setResponse:]
+0000b7ca t -[BSAFHTTPRequestOperation setResponseBody:]
+0000b65e t -[BSAFHTTPRequestOperation setRunLoopModes:]
+0000a9c3 t -[BSAFHTTPRequestOperation setState:]
+0000b825 t -[BSAFHTTPRequestOperation setTotalBytesRead:]
+0000b92a t -[BSAFHTTPRequestOperation setUploadProgress:]
+0000a969 t -[BSAFHTTPRequestOperation setUploadProgressBlock:]
+0000acde t -[BSAFHTTPRequestOperation start]
+0000b5a3 t -[BSAFHTTPRequestOperation state]
+0000b80e t -[BSAFHTTPRequestOperation totalBytesRead]
+0000b8f5 t -[BSAFHTTPRequestOperation uploadProgress]
+0000c650 t -[BSAFNetworkActivityIndicatorManager activityCount]
+0000c4de t -[BSAFNetworkActivityIndicatorManager setActivityCount:]
+0000c592 t -[BSAFNetworkActivityIndicatorManager startAnimating]
+0000c5f1 t -[BSAFNetworkActivityIndicatorManager stopAnimating]
+0000d486 t -[BSAFRestClient cancelAllHTTPOperations]
+0000d315 t -[BSAFRestClient cancelHTTPOperationsWithRequest:]
+0000cd08 t -[BSAFRestClient clearAuthorizationHeader]
+0000ca42 t -[BSAFRestClient dealloc]
+0000d764 t -[BSAFRestClient defaultHeaders]
+0000cb30 t -[BSAFRestClient defaultValueForHeader:]
+0000d6bb t -[BSAFRestClient deletePath:parameters:success:]
+0000d6fe t -[BSAFRestClient deletePath:parameters:success:failure:]
+0000d24a t -[BSAFRestClient enqueueHTTPOperationWithRequest:success:failure:]
+0000d4c0 t -[BSAFRestClient getPath:parameters:success:]
+0000d503 t -[BSAFRestClient getPath:parameters:success:failure:]
+0000c667 t -[BSAFRestClient init]
+0000d7bf t -[BSAFRestClient operationQueue]
+0000d569 t -[BSAFRestClient postPath:parameters:success:]
+0000d5ac t -[BSAFRestClient postPath:parameters:success:failure:]
+0000d612 t -[BSAFRestClient putPath:parameters:success:]
+0000d655 t -[BSAFRestClient putPath:parameters:success:failure:]
+0000cd4c t -[BSAFRestClient requestWithMethod:path:parameters:]
+0000cca9 t -[BSAFRestClient setAuthorizationHeaderWithToken:]
+0000cbb9 t -[BSAFRestClient setAuthorizationHeaderWithUsername:password:]
+0000cb71 t -[BSAFRestClient setDefaultHeader:value:]
+0000d77b t -[BSAFRestClient setDefaultHeaders:]
+0000d7d6 t -[BSAFRestClient setOperationQueue:]
+0001ad85 t -[BSReachability connectionRequired]
+0001ae42 t -[BSReachability currentReachabilityStatus]
+0001ab24 t -[BSReachability dealloc]
+0001ad2f t -[BSReachability localWiFiStatusForFlags:]
+0001ad47 t -[BSReachability networkStatusForFlags:]
+0001a870 t -[BSReachability startNotifier]
+0001aae2 t -[BSReachability stopNotifier]
+00003e6e t -[BugSenseController autorelease]
+00003e59 t -[BugSenseController copyWithZone:]
+000025db t -[BugSenseController crashReport]
+00002590 t -[BugSenseController crashReporter]
+00003e80 t -[BugSenseController dealloc]
+00003af2 t -[BugSenseController initWithAPIKey:endpointURL:userDictionary:sendImmediately:]
+00002c95 t -[BugSenseController initiateReporting]
+0005e320 s -[BugSenseController initiateReporting].cb
+0000271d t -[BugSenseController operationsQueue]
+000028f6 t -[BugSenseController performPostCrashOperations]
+0000437f t -[BugSenseController processCrashReport:]
+00003e69 t -[BugSenseController release]
+0000415a t -[BugSenseController retainAdditionalCrashInfo]
+00003e76 t -[BugSenseController retainCount]
+00003f26 t -[BugSenseController retainSymbolsForReport:]
+00003e61 t -[BugSenseController retain]
+00002766 t -[BugSenseController sessionStartTimestampInMilliseconds]
+00002e41 t -[BugSenseController startInstanceSession]
+00002f89 t -[BugSenseController stopInstanceSession]
+00004c3e t -[BugSenseController(Delegation) alertView:clickedButtonAtIndex:]
+00004e71 t -[BugSenseController(Delegation) analyticsOperationCompleted:forData:]
+00004cfa t -[BugSenseController(Delegation) operationCompleted:withData:forData:]
+0000497c t -[BugSenseController(Delegation) showNewVersionAlertViewWithData:]
+0000f00e t -[JKArray copyWithZone:]
+0002ba50 t -[JKArray copyWithZone:]
+0002b710 t -[JKArray countByEnumeratingWithState:objects:count:]
+0000e439 t -[JKArray countByEnumeratingWithState:objects:count:]
+0000e042 t -[JKArray count]
+0002b040 t -[JKArray count]
+0000dfac t -[JKArray dealloc]
+0002af00 t -[JKArray dealloc]
+0002b170 t -[JKArray getObjects:range:]
+0000e102 t -[JKArray getObjects:range:]
+0000e643 t -[JKArray insertObject:atIndex:]
+0002bb90 t -[JKArray mutableCopyWithZone:]
+0000f127 t -[JKArray mutableCopyWithZone:]
+0000e2e9 t -[JKArray objectAtIndex:]
+0002b510 t -[JKArray objectAtIndex:]
+0000ea00 t -[JKArray removeObjectAtIndex:]
+0000ece3 t -[JKArray replaceObjectAtIndex:withObject:]
+00010d30 t -[JKDictionary copyWithZone:]
+0002f0e0 t -[JKDictionary copyWithZone:]
+0000ff81 t -[JKDictionary countByEnumeratingWithState:objects:count:]
+0002edd0 t -[JKDictionary countByEnumeratingWithState:objects:count:]
+0002e1e0 t -[JKDictionary count]
+0000f991 t -[JKDictionary count]
+0000f8b8 t -[JKDictionary dealloc]
+0002e010 t -[JKDictionary dealloc]
+0000fd63 t -[JKDictionary getObjects:andKeys:]
+0002e800 t -[JKDictionary getObjects:andKeys:]
+0002f070 t -[JKDictionary keyEnumerator]
+000100bb t -[JKDictionary keyEnumerator]
+0002f220 t -[JKDictionary mutableCopyWithZone:]
+00010e33 t -[JKDictionary mutableCopyWithZone:]
+0000f9a8 t -[JKDictionary objectForKey:]
+0002e210 t -[JKDictionary objectForKey:]
+000107ce t -[JKDictionary removeObjectForKey:]
+00010111 t -[JKDictionary setObject:forKey:]
+0002d760 t -[JKDictionaryEnumerator allObjects]
+0000f36e t -[JKDictionaryEnumerator allObjects]
+0000f317 t -[JKDictionaryEnumerator dealloc]
+0002d6d0 t -[JKDictionaryEnumerator dealloc]
+0002d540 t -[JKDictionaryEnumerator initWithJKDictionary:]
+0000f225 t -[JKDictionaryEnumerator initWithJKDictionary:]
+0002da40 t -[JKDictionaryEnumerator nextObject]
+0000f5c0 t -[JKDictionaryEnumerator nextObject]
+0002d1e0 t -[JKMutableArray copyWithZone:]
+0002c090 t -[JKMutableArray insertObject:atIndex:]
+0002d390 t -[JKMutableArray mutableCopyWithZone:]
+0002c990 t -[JKMutableArray removeObjectAtIndex:]
+0002cdd0 t -[JKMutableArray replaceObjectAtIndex:withObject:]
+00030360 t -[JKMutableDictionary copyWithZone:]
+00030670 t -[JKMutableDictionary mutableCopyWithZone:]
+000300d0 t -[JKMutableDictionary removeObjectForKey:]
+0002f6c0 t -[JKMutableDictionary setObject:forKey:]
+000371d0 t -[JKSerializer dealloc]
+000152d7 t -[JKSerializer dealloc]
+0001524c t -[JKSerializer releaseState]
+000370b0 t -[JKSerializer releaseState]
+0001278a t -[JKSerializer serializeObject:options:encodeOption:block:delegate:selector:error:]
+00032510 t -[JKSerializer serializeObject:options:encodeOption:error:]
+000111dc t -[JSONDecoder clearCache]
+00030e90 t -[JSONDecoder clearCache]
+00011119 t -[JSONDecoder dealloc]
+00030d20 t -[JSONDecoder dealloc]
+00030ac0 t -[JSONDecoder initWithParseOptions:]
+00010fca t -[JSONDecoder initWithParseOptions:]
+00030a70 t -[JSONDecoder init]
+00010f9c t -[JSONDecoder init]
+00031b30 t -[JSONDecoder mutableObjectWithData:]
+000121ad t -[JSONDecoder mutableObjectWithData:]
+00031b90 t -[JSONDecoder mutableObjectWithData:error:]
+000121e2 t -[JSONDecoder mutableObjectWithData:error:]
+000319c0 t -[JSONDecoder mutableObjectWithUTF8String:length:]
+000120c8 t -[JSONDecoder mutableObjectWithUTF8String:length:]
+00031a30 t -[JSONDecoder mutableObjectWithUTF8String:length:error:]
+00012104 t -[JSONDecoder mutableObjectWithUTF8String:length:error:]
+00031880 t -[JSONDecoder objectWithData:]
+00011ffd t -[JSONDecoder objectWithData:]
+000318e0 t -[JSONDecoder objectWithData:error:]
+00012032 t -[JSONDecoder objectWithData:error:]
+0001139e t -[JSONDecoder objectWithUTF8String:length:]
+000312f0 t -[JSONDecoder objectWithUTF8String:length:]
+00031360 t -[JSONDecoder objectWithUTF8String:length:error:]
+000113da t -[JSONDecoder objectWithUTF8String:length:error:]
+00031240 t -[JSONDecoder parseJSONData:]
+00011335 t -[JSONDecoder parseJSONData:]
+000312a0 t -[JSONDecoder parseJSONData:error:]
+0001136a t -[JSONDecoder parseJSONData:error:]
+000112be t -[JSONDecoder parseUTF8String:length:]
+00031170 t -[JSONDecoder parseUTF8String:length:]
+000311e0 t -[JSONDecoder parseUTF8String:length:error:]
+000112fa t -[JSONDecoder parseUTF8String:length:error:]
+000154d8 t -[NSArray(BSJSONKitSerializing) bs_JSONDataWithOptions:error:]
+00015536 t -[NSArray(BSJSONKitSerializing) bs_JSONDataWithOptions:serializeUnsupportedClassesUsingDelegate:selector:error:]
+00015478 t -[NSArray(BSJSONKitSerializing) bs_JSONData]
+000155f2 t -[NSArray(BSJSONKitSerializing) bs_JSONStringWithOptions:error:]
+00015650 t -[NSArray(BSJSONKitSerializing) bs_JSONStringWithOptions:serializeUnsupportedClassesUsingDelegate:selector:error:]
+00015592 t -[NSArray(BSJSONKitSerializing) bs_JSONString]
+000158e0 t -[NSArray(BSJSONKitSerializingBlockAdditions) bs_JSONDataWithOptions:serializeUnsupportedClassesUsingBlock:error:]
+0001593d t -[NSArray(BSJSONKitSerializingBlockAdditions) bs_JSONStringWithOptions:serializeUnsupportedClassesUsingBlock:error:]
+00037490 t -[NSArray(JSONKitSerializing) JSONDataWithOptions:error:]
+00037440 t -[NSArray(JSONKitSerializing) JSONData]
+00037550 t -[NSArray(JSONKitSerializing) JSONStringWithOptions:error:]
+00037500 t -[NSArray(JSONKitSerializing) JSONString]
+0001fc64 t -[NSData(AFNetworking) base64EncodedString]
+0001fdfc t -[NSData(AFNetworking) dataByGZipCompressingWithError:]
+0001fe3b t -[NSData(AFNetworking) dataByGZipDecompressingDataWithError:]
+00012661 t -[NSData(BSJSONKitDeserializing) bs_mutableObjectFromJSONDataWithParseOptions:]
+00012696 t -[NSData(BSJSONKitDeserializing) bs_mutableObjectFromJSONDataWithParseOptions:error:]
+0001262b t -[NSData(BSJSONKitDeserializing) bs_mutableObjectFromJSONData]
+00012591 t -[NSData(BSJSONKitDeserializing) bs_objectFromJSONDataWithParseOptions:]
+000125c6 t -[NSData(BSJSONKitDeserializing) bs_objectFromJSONDataWithParseOptions:error:]
+0001255b t -[NSData(BSJSONKitDeserializing) bs_objectFromJSONData]
+00032350 t -[NSData(JSONKitDeserializing) mutableObjectFromJSONDataWithParseOptions:]
+000323b0 t -[NSData(JSONKitDeserializing) mutableObjectFromJSONDataWithParseOptions:error:]
+00032300 t -[NSData(JSONKitDeserializing) mutableObjectFromJSONData]
+00032200 t -[NSData(JSONKitDeserializing) objectFromJSONDataWithParseOptions:]
+00032260 t -[NSData(JSONKitDeserializing) objectFromJSONDataWithParseOptions:error:]
+000321b0 t -[NSData(JSONKitDeserializing) objectFromJSONData]
+0001570c t -[NSDictionary(BSJSONKitSerializing) bs_JSONDataWithOptions:error:]
+0001576a t -[NSDictionary(BSJSONKitSerializing) bs_JSONDataWithOptions:serializeUnsupportedClassesUsingDelegate:selector:error:]
+000156ac t -[NSDictionary(BSJSONKitSerializing) bs_JSONData]
+00015826 t -[NSDictionary(BSJSONKitSerializing) bs_JSONStringWithOptions:error:]
+00015884 t -[NSDictionary(BSJSONKitSerializing) bs_JSONStringWithOptions:serializeUnsupportedClassesUsingDelegate:selector:error:]
+000157c6 t -[NSDictionary(BSJSONKitSerializing) bs_JSONString]
+0001599a t -[NSDictionary(BSJSONKitSerializingBlockAdditions) bs_JSONDataWithOptions:serializeUnsupportedClassesUsingBlock:error:]
+000159f7 t -[NSDictionary(BSJSONKitSerializingBlockAdditions) bs_JSONStringWithOptions:serializeUnsupportedClassesUsingBlock:error:]
+00037610 t -[NSDictionary(JSONKitSerializing) JSONDataWithOptions:error:]
+000375c0 t -[NSDictionary(JSONKitSerializing) JSONData]
+000376d0 t -[NSDictionary(JSONKitSerializing) JSONStringWithOptions:error:]
+00037680 t -[NSDictionary(JSONKitSerializing) JSONString]
+0000d81a t -[NSMutableURLRequest(BSAFNetworking) bs_setHTTPBodyWithData:mimeType:forParameterNamed:parameters:useGzipCompression:]
+0000dd64 t -[NSString(BSAFNetworking) bs_urlEncodedStringWithEncoding:]
+0000dd36 t -[NSString(BSAFNetworking) bs_urlEncodedString]
+00012502 t -[NSString(BSJSONKitDeserializing) bs_mutableObjectFromJSONStringWithParseOptions:]
+00012537 t -[NSString(BSJSONKitDeserializing) bs_mutableObjectFromJSONStringWithParseOptions:error:]
+000124cc t -[NSString(BSJSONKitDeserializing) bs_mutableObjectFromJSONString]
+000122ae t -[NSString(BSJSONKitDeserializing) bs_objectFromJSONStringWithParseOptions:]
+000122e3 t -[NSString(BSJSONKitDeserializing) bs_objectFromJSONStringWithParseOptions:error:]
+00012278 t -[NSString(BSJSONKitDeserializing) bs_objectFromJSONString]
+00015360 t -[NSString(BSJSONKitSerializing) bs_JSONDataWithOptions:includeQuotes:error:]
+00015322 t -[NSString(BSJSONKitSerializing) bs_JSONData]
+0001540b t -[NSString(BSJSONKitSerializing) bs_JSONStringWithOptions:includeQuotes:error:]
+000153cd t -[NSString(BSJSONKitSerializing) bs_JSONString]
+00032100 t -[NSString(JSONKitDeserializing) mutableObjectFromJSONStringWithParseOptions:]
+00032160 t -[NSString(JSONKitDeserializing) mutableObjectFromJSONStringWithParseOptions:error:]
+000320b0 t -[NSString(JSONKitDeserializing) mutableObjectFromJSONString]
+00031cc0 t -[NSString(JSONKitDeserializing) objectFromJSONStringWithParseOptions:]
+00031d20 t -[NSString(JSONKitDeserializing) objectFromJSONStringWithParseOptions:error:]
+00031c70 t -[NSString(JSONKitDeserializing) objectFromJSONString]
+000372a0 t -[NSString(JSONKitSerializing) JSONDataWithOptions:includeQuotes:error:]
+00037240 t -[NSString(JSONKitSerializing) JSONData]
+000373a0 t -[NSString(JSONKitSerializing) JSONStringWithOptions:includeQuotes:error:]
+00037340 t -[NSString(JSONKitSerializing) JSONString]
+000239a4 t -[PLCrashReport applicationInfo]
+0002366f t -[PLCrashReport dealloc]
+00023a17 t -[PLCrashReport exceptionInfo]
+00023958 t -[PLCrashReport hasExceptionInfo]
+0002391c t -[PLCrashReport hasMachineInfo]
+0002393a t -[PLCrashReport hasProcessInfo]
+00023780 t -[PLCrashReport imageForAddress:]
+00023a00 t -[PLCrashReport images]
+000232e7 t -[PLCrashReport initWithData:error:]
+0002398d t -[PLCrashReport machineInfo]
+000239bb t -[PLCrashReport processInfo]
+000239d2 t -[PLCrashReport signalInfo]
+00023976 t -[PLCrashReport systemInfo]
+000239e9 t -[PLCrashReport threads]
+00023a2e t -[PLCrashReport(PrivateMethods) decodeCrashData:error:]
+00023fce t -[PLCrashReport(PrivateMethods) extractApplicationInfo:error:]
+0002489d t -[PLCrashReport(PrivateMethods) extractExceptionInfo:error:]
+00024631 t -[PLCrashReport(PrivateMethods) extractImageInfo:error:]
+00023e9d t -[PLCrashReport(PrivateMethods) extractMachineInfo:error:]
+0002413c t -[PLCrashReport(PrivateMethods) extractProcessInfo:error:]
+00023db8 t -[PLCrashReport(PrivateMethods) extractProcessorInfo:error:]
+00024aaf t -[PLCrashReport(PrivateMethods) extractSignalInfo:error:]
+000242b2 t -[PLCrashReport(PrivateMethods) extractStackFrameInfo:error:]
+00023c14 t -[PLCrashReport(PrivateMethods) extractSystemInfo:error:]
+00024374 t -[PLCrashReport(PrivateMethods) extractThreadInfo:error:]
+00028050 t -[PLCrashReportApplicationInfo applicationIdentifier]
+00028067 t -[PLCrashReportApplicationInfo applicationVersion]
+00027fe5 t -[PLCrashReportApplicationInfo dealloc]
+00027f68 t -[PLCrashReportApplicationInfo initWithApplicationIdentifier:applicationVersion:]
+00028540 t -[PLCrashReportBinaryImageInfo codeType]
+000284c0 t -[PLCrashReportBinaryImageInfo dealloc]
+000285a4 t -[PLCrashReportBinaryImageInfo hasImageUUID]
+00028557 t -[PLCrashReportBinaryImageInfo imageBaseAddress]
+0002858d t -[PLCrashReportBinaryImageInfo imageName]
+00028572 t -[PLCrashReportBinaryImageInfo imageSize]
+000285bc t -[PLCrashReportBinaryImageInfo imageUUID]
+00028346 t -[PLCrashReportBinaryImageInfo initWithCodeType:baseAddress:size:name:uuid:]
+0004e37b s -[PLCrashReportBinaryImageInfo initWithCodeType:baseAddress:size:name:uuid:].hex
+000286a4 t -[PLCrashReportExceptionInfo dealloc]
+00028724 t -[PLCrashReportExceptionInfo exceptionName]
+0002873b t -[PLCrashReportExceptionInfo exceptionReason]
+000285d3 t -[PLCrashReportExceptionInfo initWithExceptionName:reason:]
+0002860f t -[PLCrashReportExceptionInfo initWithExceptionName:reason:stackFrames:]
+00028752 t -[PLCrashReportExceptionInfo stackFrames]
+0002ab6d t -[PLCrashReportMachineInfo dealloc]
+0002aad8 t -[PLCrashReportMachineInfo initWithModelName:processorInfo:processorCount:logicalProcessorCount:]
+0002ac1d t -[PLCrashReportMachineInfo logicalProcessorCount]
+0002abd8 t -[PLCrashReportMachineInfo modelName]
+0002ac06 t -[PLCrashReportMachineInfo processorCount]
+0002abef t -[PLCrashReportMachineInfo processorInfo]
+000289c2 t -[PLCrashReportProcessInfo dealloc]
+00028909 t -[PLCrashReportProcessInfo initWithProcessName:processID:processPath:parentProcessName:parentProcessID:native:]
+00028ab5 t -[PLCrashReportProcessInfo native]
+00028a9e t -[PLCrashReportProcessInfo parentProcessID]
+00028a87 t -[PLCrashReportProcessInfo parentProcessName]
+00028a59 t -[PLCrashReportProcessInfo processID]
+00028a42 t -[PLCrashReportProcessInfo processName]
+00028a70 t -[PLCrashReportProcessInfo processPath]
+0002aa16 t -[PLCrashReportProcessorInfo initWithTypeEncoding:type:subtype:]
+0002aabd t -[PLCrashReportProcessorInfo subtype]
+0002aa8b t -[PLCrashReportProcessorInfo typeEncoding]
+0002aaa2 t -[PLCrashReportProcessorInfo type]
+000282c0 t -[PLCrashReportRegisterInfo dealloc]
+00028248 t -[PLCrashReportRegisterInfo initWithRegisterName:registerValue:]
+00028314 t -[PLCrashReportRegisterInfo registerName]
+0002832b t -[PLCrashReportRegisterInfo registerValue]
+000288ee t -[PLCrashReportSignalInfo address]
+000288d7 t -[PLCrashReportSignalInfo code]
+00028855 t -[PLCrashReportSignalInfo dealloc]
+000287c5 t -[PLCrashReportSignalInfo initWithSignalName:code:address:]
+000288c0 t -[PLCrashReportSignalInfo name]
+000281db t -[PLCrashReportStackFrameInfo initWithInstructionPointer:]
+0002822d t -[PLCrashReportStackFrameInfo instructionPointer]
+00027f3a t -[PLCrashReportSystemInfo architecture]
+00027e75 t -[PLCrashReportSystemInfo dealloc]
+00027d7e t -[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:architecture:timestamp:]
+00027dc8 t -[PLCrashReportSystemInfo initWithOperatingSystem:operatingSystemVersion:operatingSystemBuild:architecture:timestamp:]
+00027f23 t -[PLCrashReportSystemInfo operatingSystemBuild]
+00027f0c t -[PLCrashReportSystemInfo operatingSystemVersion]
+00027ef5 t -[PLCrashReportSystemInfo operatingSystem]
+00027f51 t -[PLCrashReportSystemInfo timestamp]
+0002a666 t -[PLCrashReportTextFormatter formatReport:error:]
+0002a60d t -[PLCrashReportTextFormatter initWithTextFormat:stringEncoding:]
+000281ac t -[PLCrashReportThreadInfo crashed]
+00028113 t -[PLCrashReportThreadInfo dealloc]
+0002807e t -[PLCrashReportThreadInfo initWithThreadNumber:stackFrames:crashed:registers:]
+000281c4 t -[PLCrashReportThreadInfo registers]
+00028195 t -[PLCrashReportThreadInfo stackFrames]
+0002817e t -[PLCrashReportThreadInfo threadNumber]
+00022a7d t -[PLCrashReporter enableCrashReporterAndReturnError:]
+00022a4c t -[PLCrashReporter enableCrashReporter]
+000228d7 t -[PLCrashReporter hasPendingCrashReport]
+00022962 t -[PLCrashReporter loadPendingCrashReportDataAndReturnError:]
+00022934 t -[PLCrashReporter loadPendingCrashReportData]
+000229e8 t -[PLCrashReporter purgePendingCrashReportAndReturnError:]
+000229b7 t -[PLCrashReporter purgePendingCrashReport]
+00022d5b t -[PLCrashReporter setCrashCallbacks:]
+00023248 t -[PLCrashReporter(PrivateMethods) crashReportDirectory]
+000232a3 t -[PLCrashReporter(PrivateMethods) crashReportPath]
+00023067 t -[PLCrashReporter(PrivateMethods) dealloc]
+00022df4 t -[PLCrashReporter(PrivateMethods) initWithApplicationIdentifier:appVersion:]
+00022f48 t -[PLCrashReporter(PrivateMethods) initWithBundle:]
+000230e7 t -[PLCrashReporter(PrivateMethods) populateCrashReportDirectoryAndReturnError:]
+0002325f t -[PLCrashReporter(PrivateMethods) queuedCrashReportDirectory]
+0001fef1 t -[PLCrashSignalHandler init]
+0001ff77 t -[PLCrashSignalHandler registerHandlerForSignal:error:]
+000200de t -[PLCrashSignalHandler registerHandlerWithCallback:context:error:]
+000201d4 t -[PLCrashSignalHandler(PrivateMethods) populateError:errnoVal:description:]
+00020249 t -[PLCrashSignalHandler(PrivateMethods) populateError:errorCode:description:cause:]
+00002470 t -[TBAppDelegate .cxx_destruct]
+00001ea0 t -[TBAppDelegate application:didFinishLaunchingWithOptions:]
+00002310 t -[TBAppDelegate applicationDidBecomeActive:]
+00002290 t -[TBAppDelegate applicationDidEnterBackground:]
+000022d0 t -[TBAppDelegate applicationWillEnterForeground:]
+00002250 t -[TBAppDelegate applicationWillResignActive:]
+00002350 t -[TBAppDelegate applicationWillTerminate:]
+000023c0 t -[TBAppDelegate setViewController:]
+00002430 t -[TBAppDelegate setWindow:]
+00002390 t -[TBAppDelegate viewController]
+00002400 t -[TBAppDelegate window]
+00002540 t -[TBViewController didReceiveMemoryWarning]
+000024f0 t -[TBViewController viewDidLoad]
+00051954 s GCC_except_table1
+00051718 s GCC_except_table15
+00051850 s GCC_except_table16
+000518fc s GCC_except_table3
+00051928 s GCC_except_table4
+000516ec s GCC_except_table47
+0005e4f4 s _AFHTTPOperationDidFinishNotification
+0005e4f0 s _AFHTTPOperationDidStartNotification
+0004c4d5 s _Base64EncodingTable
+         U _CC_MD5
+         U _CFArrayGetCount
+         U _CFArrayGetValues
+         U _CFBundleGetBundleWithIdentifier
+         U _CFBundleGetInfoDictionary
+         U _CFDataCreate
+         U _CFDataCreateMutable
+         U _CFDataCreateWithBytesNoCopy
+         U _CFDataGetMutableBytePtr
+         U _CFDataSetLength
+         U _CFDictionaryGetCount
+         U _CFDictionaryGetKeysAndValues
+         U _CFDictionaryGetValue
+         U _CFEqual
+         U _CFHash
+         U _CFNumberCreate
+         U _CFNumberGetValue
+00038220 t _CFRangeMake
+         U _CFRelease
+         U _CFRetain
+         U _CFRunLoopCopyAllModes
+         U _CFRunLoopGetCurrent
+         U _CFRunLoopRunInMode
+         U _CFStringConvertEncodingToIANACharSetName
+         U _CFStringConvertNSStringEncodingToEncoding
+         U _CFStringCreateWithBytes
+         U _CFStringCreateWithBytesNoCopy
+         U _CFStringGetBytes
+         U _CFStringGetCStringPtr
+         U _CFStringGetFastestEncoding
+         U _CFStringGetLength
+         U _CFStringGetMaximumSizeForEncoding
+         U _CFURLCreateStringByAddingPercentEscapes
+         U _CFURLCreateStringByReplacingPercentEscapesUsingEncoding
+         U _CFUUIDCreate
+         U _CFUUIDCreateString
+0001604b t _ConvertSingleCodePointInUTF8
+00038260 t _ConvertSingleCodePointInUTF8
+00041d20 t _ConvertUTF32toUTF8
+         U _NSClassFromString
+         U _NSFilePosixPermissions
+         U _NSInternalInconsistencyException
+         U _NSInvalidArgumentException
+         U _NSLocalizedDescriptionKey
+         U _NSLog
+         U _NSMallocException
+         U _NSPOSIXErrorDomain
+         U _NSRangeException
+         U _NSRunLoopCommonModes
+         U _NSSearchPathForDirectoriesInDomains
+         U _NSSetUncaughtExceptionHandler
+         U _NSStringFromClass
+         U _NSStringFromSelector
+         U _NSURLErrorDomain
+         U _NSURLErrorFailingURLErrorKey
+         U _NSUnderlyingErrorKey
+0005f1ec S _NXArgc
+0005f1f0 S _NXArgv
+0005b0a8 s _OBJC_$_CLASS_METHODS___ARCLite__
+0005bb64 s _OBJC_CLASS_$_BSAFHTTPRequestOperation
+0005bba0 s _OBJC_CLASS_$_BSAFJSONRequestOperation
+0005bbb4 s _OBJC_CLASS_$_BSAFNetworkActivityIndicatorManager
+0005bbdc s _OBJC_CLASS_$_BSAFRestClient
+0005bcf4 s _OBJC_CLASS_$_BSOpenUDID
+0005bccc s _OBJC_CLASS_$_BSReachability
+0005bd1c s _OBJC_CLASS_$_BugSenseAnalyticsGenerator
+0005bac4 S _OBJC_CLASS_$_BugSenseController
+0005bb50 s _OBJC_CLASS_$_BugSenseDataDispatcher
+0005bb28 s _OBJC_CLASS_$_BugSenseJSONGenerator
+0005bd44 s _OBJC_CLASS_$_BugSensePersistence
+0005bb00 s _OBJC_CLASS_$_BugSenseSymbolicator
+0005bc04 s _OBJC_CLASS_$_JKArray
+0005bfc4 S _OBJC_CLASS_$_JKArray
+0005c03c S _OBJC_CLASS_$_JKDictionary
+0005bc54 s _OBJC_CLASS_$_JKDictionary
+0005c014 S _OBJC_CLASS_$_JKDictionaryEnumerator
+0005bc2c s _OBJC_CLASS_$_JKDictionaryEnumerator
+0005c000 S _OBJC_CLASS_$_JKMutableArray
+0005c078 S _OBJC_CLASS_$_JKMutableDictionary
+0005c0b4 S _OBJC_CLASS_$_JKSerializer
+0005bca4 s _OBJC_CLASS_$_JKSerializer
+0005bc7c s _OBJC_CLASS_$_JSONDecoder
+0005c08c S _OBJC_CLASS_$_JSONDecoder
+         U _OBJC_CLASS_$_NSArray
+         U _OBJC_CLASS_$_NSAssertionHandler
+         U _OBJC_CLASS_$_NSAutoreleasePool
+         U _OBJC_CLASS_$_NSBundle
+         U _OBJC_CLASS_$_NSData
+         U _OBJC_CLASS_$_NSDate
+         U _OBJC_CLASS_$_NSDateFormatter
+         U _OBJC_CLASS_$_NSDictionary
+         U _OBJC_CLASS_$_NSEnumerator
+         U _OBJC_CLASS_$_NSError
+         U _OBJC_CLASS_$_NSException
+         U _OBJC_CLASS_$_NSFileManager
+         U _OBJC_CLASS_$_NSHTTPURLResponse
+         U _OBJC_CLASS_$_NSIndexSet
+         U _OBJC_CLASS_$_NSKeyedArchiver
+         U _OBJC_CLASS_$_NSKeyedUnarchiver
+         U _OBJC_CLASS_$_NSLocale
+         U _OBJC_CLASS_$_NSMutableArray
+         U _OBJC_CLASS_$_NSMutableData
+         U _OBJC_CLASS_$_NSMutableDictionary
+         U _OBJC_CLASS_$_NSMutableOrderedSet
+         U _OBJC_CLASS_$_NSMutableString
+         U _OBJC_CLASS_$_NSMutableURLRequest
+         U _OBJC_CLASS_$_NSNotificationCenter
+         U _OBJC_CLASS_$_NSNull
+         U _OBJC_CLASS_$_NSNumber
+         U _OBJC_CLASS_$_NSObject
+         U _OBJC_CLASS_$_NSOperation
+         U _OBJC_CLASS_$_NSOperationQueue
+         U _OBJC_CLASS_$_NSOrderedSet
+         U _OBJC_CLASS_$_NSPropertyListSerialization
+         U _OBJC_CLASS_$_NSRunLoop
+         U _OBJC_CLASS_$_NSSet
+         U _OBJC_CLASS_$_NSString
+         U _OBJC_CLASS_$_NSThread
+         U _OBJC_CLASS_$_NSURL
+         U _OBJC_CLASS_$_NSURLConnection
+         U _OBJC_CLASS_$_NSUserDefaults
+0005bdbc S _OBJC_CLASS_$_PLCrashReport
+0005be0c S _OBJC_CLASS_$_PLCrashReportApplicationInfo
+0005beac S _OBJC_CLASS_$_PLCrashReportBinaryImageInfo
+0005bed4 S _OBJC_CLASS_$_PLCrashReportExceptionInfo
+0005bf9c S _OBJC_CLASS_$_PLCrashReportMachineInfo
+0005bf24 S _OBJC_CLASS_$_PLCrashReportProcessInfo
+0005bf74 S _OBJC_CLASS_$_PLCrashReportProcessorInfo
+0005be84 S _OBJC_CLASS_$_PLCrashReportRegisterInfo
+0005befc S _OBJC_CLASS_$_PLCrashReportSignalInfo
+0005be5c S _OBJC_CLASS_$_PLCrashReportStackFrameInfo
+0005bde4 S _OBJC_CLASS_$_PLCrashReportSystemInfo
+0005bf4c S _OBJC_CLASS_$_PLCrashReportTextFormatter
+0005be34 S _OBJC_CLASS_$_PLCrashReportThreadInfo
+0005bd94 S _OBJC_CLASS_$_PLCrashReporter
+0005bd6c S _OBJC_CLASS_$_PLCrashSignalHandler
+0005ba88 S _OBJC_CLASS_$_TBAppDelegate
+0005ba9c S _OBJC_CLASS_$_TBViewController
+         U _OBJC_CLASS_$_UIAlertView
+         U _OBJC_CLASS_$_UIApplication
+         U _OBJC_CLASS_$_UIDevice
+         U _OBJC_CLASS_$_UIPasteboard
+         U _OBJC_CLASS_$_UIResponder
+         U _OBJC_CLASS_$_UIScreen
+         U _OBJC_CLASS_$_UIViewController
+         U _OBJC_CLASS_$_UIWindow
+0005c0dc s _OBJC_CLASS_$___ARCLite__
+0005b058 s _OBJC_CLASS_RO_$___ARCLite__
+         U _OBJC_EHTYPE_$_NSException
+0005e1bc s _OBJC_IVAR_$_BSAFHTTPRequestOperation._completion
+0005e1b0 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._connection
+0005e1a8 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._dataAccumulator
+0005e1b8 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._downloadProgress
+0005e1c8 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._error
+0005e1c4 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._isCancelled
+0005e1ac s _OBJC_IVAR_$_BSAFHTTPRequestOperation._outputStream
+0005e19c s _OBJC_IVAR_$_BSAFHTTPRequestOperation._request
+0005e1a0 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._response
+0005e1a4 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._responseBody
+0005e198 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._runLoopModes
+0005e1c0 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._state
+0005e1cc s _OBJC_IVAR_$_BSAFHTTPRequestOperation._totalBytesRead
+0005e1b4 s _OBJC_IVAR_$_BSAFHTTPRequestOperation._uploadProgress
+0005e1d0 s _OBJC_IVAR_$_BSAFNetworkActivityIndicatorManager._activityCount
+0005e1d4 s _OBJC_IVAR_$_BSAFRestClient._defaultHeaders
+0005e1d8 s _OBJC_IVAR_$_BSAFRestClient._operationQueue
+0005e210 s _OBJC_IVAR_$_BSReachability.localWiFiRef
+0005e20c s _OBJC_IVAR_$_BSReachability.reachabilityRef
+0005e184 s _OBJC_IVAR_$_BugSenseController._crashReport
+0005e180 s _OBJC_IVAR_$_BugSenseController._crashReporter
+0005e190 s _OBJC_IVAR_$_BugSenseController._operationCompleted
+0005e188 s _OBJC_IVAR_$_BugSenseController._operationsQueue
+0005e18c s _OBJC_IVAR_$_BugSenseController._sessionStartTimestampInMilliseconds
+0005e194 s _OBJC_IVAR_$_BugSenseController._storeLinkURL
+0005e1e4 s _OBJC_IVAR_$_JKArray.capacity
+0005e2f8 S _OBJC_IVAR_$_JKArray.capacity
+0005e1e0 s _OBJC_IVAR_$_JKArray.count
+0005e2f4 S _OBJC_IVAR_$_JKArray.count
+0005e1e8 s _OBJC_IVAR_$_JKArray.mutations
+0005e2fc S _OBJC_IVAR_$_JKArray.mutations
+0005e1dc s _OBJC_IVAR_$_JKArray.objects
+0005e2f0 S _OBJC_IVAR_$_JKArray.objects
+0005e1f8 s _OBJC_IVAR_$_JKDictionary.capacity
+0005e30c S _OBJC_IVAR_$_JKDictionary.capacity
+0005e1fc s _OBJC_IVAR_$_JKDictionary.count
+0005e310 S _OBJC_IVAR_$_JKDictionary.count
+0005e308 S _OBJC_IVAR_$_JKDictionary.entry
+0005e1f4 s _OBJC_IVAR_$_JKDictionary.entry
+0005e200 s _OBJC_IVAR_$_JKDictionary.mutations
+0005e314 S _OBJC_IVAR_$_JKDictionary.mutations
+0005e300 S _OBJC_IVAR_$_JKDictionaryEnumerator.collection
+0005e1ec s _OBJC_IVAR_$_JKDictionaryEnumerator.collection
+0005e1f0 s _OBJC_IVAR_$_JKDictionaryEnumerator.nextObject
+0005e304 S _OBJC_IVAR_$_JKDictionaryEnumerator.nextObject
+0005e31c S _OBJC_IVAR_$_JKSerializer.encodeState
+0005e208 s _OBJC_IVAR_$_JKSerializer.encodeState
+0005e318 S _OBJC_IVAR_$_JSONDecoder.parseState
+0005e204 s _OBJC_IVAR_$_JSONDecoder.parseState
+         U _OBJC_IVAR_$_NSObject.isa
+0005e234 s _OBJC_IVAR_$_PLCrashReport._applicationInfo
+0005e228 s _OBJC_IVAR_$_PLCrashReport._decoder
+0005e248 s _OBJC_IVAR_$_PLCrashReport._exceptionInfo
+0005e244 s _OBJC_IVAR_$_PLCrashReport._images
+0005e230 s _OBJC_IVAR_$_PLCrashReport._machineInfo
+0005e238 s _OBJC_IVAR_$_PLCrashReport._processInfo
+0005e23c s _OBJC_IVAR_$_PLCrashReport._signalInfo
+0005e22c s _OBJC_IVAR_$_PLCrashReport._systemInfo
+0005e240 s _OBJC_IVAR_$_PLCrashReport._threads
+0005e260 s _OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationIdentifier
+0005e264 s _OBJC_IVAR_$_PLCrashReportApplicationInfo._applicationVersion
+0005e284 s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._baseAddress
+0005e294 s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._hasImageUUID
+0005e28c s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageName
+0005e288 s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageSize
+0005e298 s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._imageUUID
+0005e290 s _OBJC_IVAR_$_PLCrashReportBinaryImageInfo._processorInfo
+0005e29c s _OBJC_IVAR_$_PLCrashReportExceptionInfo._name
+0005e2a0 s _OBJC_IVAR_$_PLCrashReportExceptionInfo._reason
+0005e2a4 s _OBJC_IVAR_$_PLCrashReportExceptionInfo._stackFrames
+0005e2ec s _OBJC_IVAR_$_PLCrashReportMachineInfo._logicalProcessorCount
+0005e2e0 s _OBJC_IVAR_$_PLCrashReportMachineInfo._modelName
+0005e2e8 s _OBJC_IVAR_$_PLCrashReportMachineInfo._processorCount
+0005e2e4 s _OBJC_IVAR_$_PLCrashReportMachineInfo._processorInfo
+0005e2c8 s _OBJC_IVAR_$_PLCrashReportProcessInfo._native
+0005e2c4 s _OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessID
+0005e2c0 s _OBJC_IVAR_$_PLCrashReportProcessInfo._parentProcessName
+0005e2b8 s _OBJC_IVAR_$_PLCrashReportProcessInfo._processID
+0005e2b4 s _OBJC_IVAR_$_PLCrashReportProcessInfo._processName
+0005e2bc s _OBJC_IVAR_$_PLCrashReportProcessInfo._processPath
+0005e2dc s _OBJC_IVAR_$_PLCrashReportProcessorInfo._subtype
+0005e2d8 s _OBJC_IVAR_$_PLCrashReportProcessorInfo._type
+0005e2d4 s _OBJC_IVAR_$_PLCrashReportProcessorInfo._typeEncoding
+0005e27c s _OBJC_IVAR_$_PLCrashReportRegisterInfo._registerName
+0005e280 s _OBJC_IVAR_$_PLCrashReportRegisterInfo._registerValue
+0005e2b0 s _OBJC_IVAR_$_PLCrashReportSignalInfo._address
+0005e2ac s _OBJC_IVAR_$_PLCrashReportSignalInfo._code
+0005e2a8 s _OBJC_IVAR_$_PLCrashReportSignalInfo._name
+0005e278 s _OBJC_IVAR_$_PLCrashReportStackFrameInfo._instructionPointer
+0005e258 s _OBJC_IVAR_$_PLCrashReportSystemInfo._architecture
+0005e24c s _OBJC_IVAR_$_PLCrashReportSystemInfo._operatingSystem
+0005e254 s _OBJC_IVAR_$_PLCrashReportSystemInfo._osBuild
+0005e250 s _OBJC_IVAR_$_PLCrashReportSystemInfo._osVersion
+0005e25c s _OBJC_IVAR_$_PLCrashReportSystemInfo._timestamp
+0005e2d0 s _OBJC_IVAR_$_PLCrashReportTextFormatter._stringEncoding
+0005e2cc s _OBJC_IVAR_$_PLCrashReportTextFormatter._textFormat
+0005e270 s _OBJC_IVAR_$_PLCrashReportThreadInfo._crashed
+0005e274 s _OBJC_IVAR_$_PLCrashReportThreadInfo._registers
+0005e26c s _OBJC_IVAR_$_PLCrashReportThreadInfo._stackFrames
+0005e268 s _OBJC_IVAR_$_PLCrashReportThreadInfo._threadNumber
+0005e21c s _OBJC_IVAR_$_PLCrashReporter._applicationIdentifier
+0005e220 s _OBJC_IVAR_$_PLCrashReporter._applicationVersion
+0005e224 s _OBJC_IVAR_$_PLCrashReporter._crashReportDirectory
+0005e218 s _OBJC_IVAR_$_PLCrashReporter._enabled
+0005e214 s _OBJC_IVAR_$_PLCrashSignalHandler._sigstk
+0005e178 s _OBJC_IVAR_$_TBAppDelegate._viewController
+0005e17c s _OBJC_IVAR_$_TBAppDelegate._window
+0005bb78 s _OBJC_METACLASS_$_BSAFHTTPRequestOperation
+0005bb8c s _OBJC_METACLASS_$_BSAFJSONRequestOperation
+0005bbc8 s _OBJC_METACLASS_$_BSAFNetworkActivityIndicatorManager
+0005bbf0 s _OBJC_METACLASS_$_BSAFRestClient
+0005bd08 s _OBJC_METACLASS_$_BSOpenUDID
+0005bce0 s _OBJC_METACLASS_$_BSReachability
+0005bd30 s _OBJC_METACLASS_$_BugSenseAnalyticsGenerator
+0005bad8 S _OBJC_METACLASS_$_BugSenseController
+0005bb3c s _OBJC_METACLASS_$_BugSenseDataDispatcher
+0005bb14 s _OBJC_METACLASS_$_BugSenseJSONGenerator
+0005bd58 s _OBJC_METACLASS_$_BugSensePersistence
+0005baec s _OBJC_METACLASS_$_BugSenseSymbolicator
+0005bc18 s _OBJC_METACLASS_$_JKArray
+0005bfd8 S _OBJC_METACLASS_$_JKArray
+0005c050 S _OBJC_METACLASS_$_JKDictionary
+0005bc68 s _OBJC_METACLASS_$_JKDictionary
+0005bc40 s _OBJC_METACLASS_$_JKDictionaryEnumerator
+0005c028 S _OBJC_METACLASS_$_JKDictionaryEnumerator
+0005bfec S _OBJC_METACLASS_$_JKMutableArray
+0005c064 S _OBJC_METACLASS_$_JKMutableDictionary
+0005c0c8 S _OBJC_METACLASS_$_JKSerializer
+0005bcb8 s _OBJC_METACLASS_$_JKSerializer
+0005bc90 s _OBJC_METACLASS_$_JSONDecoder
+0005c0a0 S _OBJC_METACLASS_$_JSONDecoder
+         U _OBJC_METACLASS_$_NSArray
+         U _OBJC_METACLASS_$_NSDictionary
+         U _OBJC_METACLASS_$_NSEnumerator
+         U _OBJC_METACLASS_$_NSMutableArray
+         U _OBJC_METACLASS_$_NSMutableDictionary
+         U _OBJC_METACLASS_$_NSObject
+         U _OBJC_METACLASS_$_NSOperation
+0005bdd0 s _OBJC_METACLASS_$_PLCrashReport
+0005be20 s _OBJC_METACLASS_$_PLCrashReportApplicationInfo
+0005bec0 s _OBJC_METACLASS_$_PLCrashReportBinaryImageInfo
+0005bee8 s _OBJC_METACLASS_$_PLCrashReportExceptionInfo
+0005bfb0 s _OBJC_METACLASS_$_PLCrashReportMachineInfo
+0005bf38 s _OBJC_METACLASS_$_PLCrashReportProcessInfo
+0005bf88 s _OBJC_METACLASS_$_PLCrashReportProcessorInfo
+0005be98 s _OBJC_METACLASS_$_PLCrashReportRegisterInfo
+0005bf10 s _OBJC_METACLASS_$_PLCrashReportSignalInfo
+0005be70 s _OBJC_METACLASS_$_PLCrashReportStackFrameInfo
+0005bdf8 s _OBJC_METACLASS_$_PLCrashReportSystemInfo
+0005bf60 s _OBJC_METACLASS_$_PLCrashReportTextFormatter
+0005be48 s _OBJC_METACLASS_$_PLCrashReportThreadInfo
+0005bda8 s _OBJC_METACLASS_$_PLCrashReporter
+0005bd80 s _OBJC_METACLASS_$_PLCrashSignalHandler
+0005ba74 S _OBJC_METACLASS_$_TBAppDelegate
+0005bab0 S _OBJC_METACLASS_$_TBViewController
+         U _OBJC_METACLASS_$_UIResponder
+         U _OBJC_METACLASS_$_UIViewController
+0005c0f0 s _OBJC_METACLASS_$___ARCLite__
+0005b080 s _OBJC_METACLASS_RO_$___ARCLite__
+         U _OSAtomicAdd32Barrier
+         U _OSAtomicCompareAndSwapPtrBarrier
+         U _OSMemoryBarrier
+         U _OSSpinLockLock
+         U _OSSpinLockUnlock
+0005f1fc S _PLCrashReportHostArchitecture
+0005c2a0 D _PLCrashReportHostOperatingSystem
+0005c270 D _PLCrashReporterErrorDomain
+0005c26c D _PLCrashReporterException
+0001a8fb t _ReachabilityCallback
+         U _SCNetworkReachabilityCreateWithAddress
+         U _SCNetworkReachabilityCreateWithName
+         U _SCNetworkReachabilityGetFlags
+         U _SCNetworkReachabilityScheduleWithRunLoop
+         U _SCNetworkReachabilitySetCallback
+         U _SCNetworkReachabilityUnscheduleFromRunLoop
+0005fc64 b _SharedHandlerContext
+         U _UIApplicationDidEnterBackgroundNotification
+         U _UIApplicationMain
+         U _UIApplicationWillEnterForegroundNotification
+         U _UIApplicationWillTerminateNotification
+         U _UIBackgroundTaskInvalid
+0005f204 b __APIKey
+         U __Block_copy
+         U __Block_object_assign
+         U __Block_object_dispose
+0005fcf0 b __JKArrayClass
+0005fc44 b __JKArrayClass
+0002c240 t __JKArrayCount
+0003e8d0 t __JKArrayCreate
+0002c830 t __JKArrayIncrementMutations
+0002c390 t __JKArrayInsertObjectAtIndex
+0005fc48 b __JKArrayInstanceSize
+0005fcf8 b __JKArrayInstanceSize
+0002ca90 t __JKArrayRemoveObjectAtIndex
+0002cf80 t __JKArrayReplaceObjectAtIndexWithObject
+00010548 t __JKDictionaryAddObject
+0002fca0 t __JKDictionaryAddObject
+0002dd30 t __JKDictionaryCapacity
+0001a2e5 t __JKDictionaryCapacityForCount
+0003f180 t __JKDictionaryCapacityForCount
+0005fcfc b __JKDictionaryClass
+0005fc4c b __JKDictionaryClass
+00030560 t __JKDictionaryCount
+0003ee60 t __JKDictionaryCreate
+0002e950 t __JKDictionaryGetKeysAndObjects
+0000f756 t __JKDictionaryHashEntry
+0002dc20 t __JKDictionaryHashEntry
+0002e370 t __JKDictionaryHashTableEntryForKey
+0000fa70 t __JKDictionaryHashTableEntryForKey
+0002ff90 t __JKDictionaryIncrementMutations
+0005fc50 b __JKDictionaryInstanceSize
+0005fd04 b __JKDictionaryInstanceSize
+000108f9 t __JKDictionaryRemoveObjectWithEntry
+000301c0 t __JKDictionaryRemoveObjectWithEntry
+0002f880 t __JKDictionaryResizeIfNeccessary
+0005fcf4 b __JKMutableArrayClass
+0005fd00 b __JKMutableDictionaryClass
+00031460 t __JKParseUTF8String
+00011480 t __JKParseUTF8String
+00011159 t __JSONDecoderCleanup
+00030d80 t __JSONDecoderCleanup
+         U __NSConcreteGlobalBlock
+         U __NSConcreteStackBlock
+         U __NSGetExecutablePath
+00012307 t __NSStringObjectFromJSONString
+00031d70 t __NSStringObjectFromJSONString
+         U __Unwind_Resume
+000038ac t ___100+[BugSenseController sharedControllerWithBugSenseAPIKey:endpointURL:userDictionary:sendImmediately:]_block_invoke_0
+0000bcd6 t ___110+[BSAFJSONRequestOperation operationWithRequest:acceptableStatusCodes:acceptableContentTypes:success:failure:]_block_invoke_0
+000030d8 t ___33+[BugSenseController stopSession]_block_invoke_0
+00003191 t ___33+[BugSenseController stopSession]_block_invoke_0100
+00003404 t ___39+[BugSenseController sendEventWithTag:]_block_invoke_0
+00003491 t ___39+[BugSenseController sendEventWithTag:]_block_invoke_0121
+00002da7 t ___39-[BugSenseController initiateReporting]_block_invoke_0
+00002eed t ___42-[BugSenseController startInstanceSession]_block_invoke_0
+0000a3a9 t ___48+[BSAFHTTPRequestOperation networkRequestThread]_block_invoke_0
+0000c49b t ___52+[BSAFNetworkActivityIndicatorManager sharedManager]_block_invoke_0
+00009ff5 t ___64+[BugSenseDataDispatcher postAnalyticsData:withAPIKey:delegate:]_block_invoke_0
+0000bb63 t ___65+[BSAFJSONRequestOperation operationWithRequest:success:failure:]_block_invoke_0
+0000bbe1 t ___65+[BSAFJSONRequestOperation operationWithRequest:success:failure:]_block_invoke_05
+00004f25 t ___70-[BugSenseController(Delegation) analyticsOperationCompleted:forData:]_block_invoke_0
+00004dea t ___70-[BugSenseController(Delegation) operationCompleted:withData:forData:]_block_invoke_0
+0000993e t ___72+[BugSenseDataDispatcher postJSONData:withAPIKey:delegate:showFeedback:]_block_invoke_0
+0000a6f6 t ___85+[BSAFHTTPRequestOperation operationWithRequest:inputStream:outputStream:completion:]_block_invoke_0
+000420a9 t ___ARCLite__load
+         U ___CFConstantStringClassReference
+0004237e t ___arclite_NSArray_objectAtIndexedSubscript
+00042405 t ___arclite_NSDictionary_objectForKeyedSubscript
+000423ab t ___arclite_NSMutableArray_setObject_atIndexedSubscript
+00042432 t ___arclite_NSMutableDictionary__setObject_forKeyedSubscript
+00042493 t ___arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+00042466 t ___arclite_NSOrderedSet_objectAtIndexedSubscript
+00042a45 t ___arclite_objc_autorelease
+000424c7 t ___arclite_objc_autoreleasePoolPop
+000426fb t ___arclite_objc_autoreleasePoolPush
+00042aa5 t ___arclite_objc_autoreleaseReturnValue
+00042a1f t ___arclite_objc_release
+000429f0 t ___arclite_objc_retain
+00042a6b t ___arclite_objc_retainAutorelease
+00042acb t ___arclite_objc_retainAutoreleaseReturnValue
+00042b05 t ___arclite_objc_retainAutoreleasedReturnValue
+00042a16 t ___arclite_objc_retainBlock
+00042b2b t ___arclite_objc_storeStrong
+0004289a t ___arclite_object_copy
+00042724 t ___arclite_object_setInstanceVariable
+00042776 t ___arclite_object_setIvar
+         U ___assert_rtn
+0005e5d8 s ___block_descriptor_tmp
+0005e540 s ___block_descriptor_tmp
+0005e500 s ___block_descriptor_tmp
+0005e450 s ___block_descriptor_tmp
+0005e330 s ___block_descriptor_tmp
+0005e490 s ___block_descriptor_tmp103
+0005e4b0 s ___block_descriptor_tmp106
+0005e390 s ___block_descriptor_tmp108
+0005e4d0 s ___block_descriptor_tmp109
+0005e3b0 s ___block_descriptor_tmp120
+0005e3d0 s ___block_descriptor_tmp126
+0005e3f0 s ___block_descriptor_tmp171
+0005e410 s ___block_descriptor_tmp416
+0005e430 s ___block_descriptor_tmp425
+0005e580 s ___block_descriptor_tmp45
+0005e520 s ___block_descriptor_tmp47
+0005e5a0 s ___block_descriptor_tmp48
+0005e5c0 s ___block_descriptor_tmp52
+0005e470 s ___block_descriptor_tmp75
+0005e348 s ___block_descriptor_tmp77
+0005e560 s ___block_descriptor_tmp8
+0005e370 s ___block_descriptor_tmp98
+00009a7d t ___block_global_0
+0000bf5a t ___block_global_0
+0000c012 t ___block_global_1
+0000a11e t ___block_global_1
+0000a1e6 t ___block_global_2
+0005e358 s ___block_literal_global
+0005e5e8 s ___block_literal_global
+00009af0 t ___copy_helper_block_
+0000a420 t ___copy_helper_block_
+0000bb90 t ___copy_helper_block_
+00002df0 t ___copy_helper_block_
+0000a160 t ___copy_helper_block_101
+0000a220 t ___copy_helper_block_104
+00003280 t ___copy_helper_block_106
+0000a2b0 t ___copy_helper_block_107
+00003440 t ___copy_helper_block_118
+000034d0 t ___copy_helper_block_124
+00003950 t ___copy_helper_block_169
+00004e20 t ___copy_helper_block_414
+0000c070 t ___copy_helper_block_42
+00004fb0 t ___copy_helper_block_423
+0000a730 t ___copy_helper_block_44
+0000c1c0 t ___copy_helper_block_46
+0000c2d0 t ___copy_helper_block_49
+0000bc10 t ___copy_helper_block_6
+00009bb0 t ___copy_helper_block_72
+00003140 t ___copy_helper_block_96
+0000bbc0 t ___destroy_helper_block_
+0000a450 t ___destroy_helper_block_
+00009b60 t ___destroy_helper_block_
+00002e20 t ___destroy_helper_block_
+0000a1b0 t ___destroy_helper_block_102
+0000a270 t ___destroy_helper_block_105
+000032b0 t ___destroy_helper_block_107
+0000a300 t ___destroy_helper_block_108
+00003470 t ___destroy_helper_block_119
+00003500 t ___destroy_helper_block_125
+000039d0 t ___destroy_helper_block_170
+00004e50 t ___destroy_helper_block_415
+00005000 t ___destroy_helper_block_424
+0000c130 t ___destroy_helper_block_43
+0000a760 t ___destroy_helper_block_45
+0000c260 t ___destroy_helper_block_47
+0000c350 t ___destroy_helper_block_50
+0000bc40 t ___destroy_helper_block_7
+00009c00 t ___destroy_helper_block_73
+00003170 t ___destroy_helper_block_97
+         U ___divdi3
+         U ___error
+0002b4c0 t ___inline_memcpy_chk
+00042050 t ___inline_memmove_chk
+00031120 t ___inline_memset_chk
+         U ___memcpy_chk
+         U ___memmove_chk
+         U ___memset_chk
+         U ___moddi3
+         U ___objc_personality_v0
+0005f1f8 S ___progname
+         U ___snprintf_chk
+         U ___stack_chk_fail
+         U ___stack_chk_guard
+         U ___stderrp
+         U ___udivdi3
+         U ___umoddi3
+         U ___vsnprintf_chk
+0005f21d b __breadcrumbs
+0004fc2f s __class_name
+         U __dispatch_main_q
+00001dc4 t __dyld_func_lookup
+         U __dyld_register_func_for_add_image
+         U __dyld_register_func_for_remove_image
+0005f200 b __endpointURL
+0005f214 b __fixNotificationsMessage
+0005f210 b __fixNotificationsTitle
+0005f21c b __immediately
+0005fd0c b __jk_NSNumberAllocImp
+0005fc58 b __jk_NSNumberAllocImp
+0005fc54 b __jk_NSNumberClass
+0005fd08 b __jk_NSNumberClass
+0005fc5c b __jk_NSNumberInitWithUnsignedLongLongImp
+0005fd10 b __jk_NSNumberInitWithUnsignedLongLongImp
+000476c1 s __load_method_name
+000511fb s __load_method_type
+0005f20c b __logMessagesCount
+0005c160 d __logMessagesLevel
+00001000 A __mh_execute_header
+0005fc34 b __networkRequestThread
+0005745c s __non_lazy_classes
+         U __objc_empty_cache
+         U __objc_empty_vtable
+0005fc2c b __pendingDispatchesCount
+0005f218 b __sharedCrashController
+0005f624 b __userDictionary
+0005f208 b __usesProxy
+         U _abort
+00042356 t _add_image_hook_ARC
+0005c5b8 d _add_image_hook_ARC.names
+0005c5f4 d _add_image_hook_ARC.pointers
+0005fc38 b _af_json_request_operation_processing_queue
+         U _arc4random
+         U _asl_get
+         U _asl_key
+         U _asl_new
+         U _asl_search
+         U _asl_set_query
+         U _aslresponse_free
+         U _aslresponse_next
+0001e100 t _atoi_async
+0001e1f9 t _atoi_async_helper
+0001e406 t _atoll_async
+0001e529 t _atoll_async_helper
+0001e653 t _atollu_async
+0001e73e t _atollu_async_helper
+0001e296 t _atou_async
+0001e369 t _atou_async_helper
+0002a5a4 t _binaryImageSort
+0005fa28 b _breadcrumbs_cache_path
+         U _calloc
+         U _class_addMethod
+         U _class_getClassMethod
+         U _class_getInstanceMethod
+         U _class_getInstanceSize
+         U _class_getInstanceVariable
+         U _class_getIvarLayout
+         U _class_getName
+         U _class_getSuperclass
+         U _class_isMetaClass
+         U _class_replaceMethod
+         U _close
+0005fce8 b _crashCallbacks.1
+0005fcec b _crashCallbacks.2
+0001ed27 t _ctime_async
+         U _deflate
+         U _dispatch_async
+         U _dispatch_get_current_queue
+         U _dispatch_once
+         U _dispatch_queue_create
+         U _dispatch_release
+         U _dispatch_sync
+         U _dladdr
+0005f1f4 S _environ
+         U _exit
+00020042 t _fatal_signal_handler
+00051450 s _fatal_signals
+000516e4 s _firstByteMark
+000512e8 s _firstByteMark
+         U _floor
+         U _free
+         U _freeifaddrs
+         U _fwrite
+0001f158 t _get_system_log_messages
+         U _getifaddrs
+         U _getpid
+         U _getppid
+         U _getprogname
+         U _gettimeofday
+00022c30 t _image_add_callback
+00022c56 t _image_remove_callback
+         U _inet_ntoa
+00039ab0 t _isLegalUTF8
+0001e868 t _itoa_async
+         U _ivar_getName
+         U _ivar_getOffset
+000198b7 t _jk_cachedObjects
+0003c5d0 t _jk_cachedObjects
+0000ddd0 t _jk_collectionClassLoadTimeInitialization
+0003edd0 t _jk_create_dictionary
+00051248 s _jk_dictionaryCapacities
+00051644 s _jk_dictionaryCapacities
+000333f0 t _jk_encode_add_atom_to_buffer
+0001303a t _jk_encode_add_atom_to_buffer
+00012eb3 t _jk_encode_error
+000331c0 t _jk_encode_error
+00015c62 t _jk_encode_printf
+00037b70 t _jk_encode_printf
+00039500 t _jk_encode_write
+00038bc0 t _jk_encode_write1fast
+00016854 t _jk_encode_write1fast
+000165e3 t _jk_encode_write1slow
+00038d90 t _jk_encode_write1slow
+00016c2c t _jk_encode_writePrettyPrintWhiteSpace
+000391e0 t _jk_encode_writePrettyPrintWhiteSpace
+0001632c t _jk_encode_writen
+00038730 t _jk_encode_writen
+0003c010 t _jk_error
+000196c4 t _jk_error
+0003ebd0 t _jk_error_parse_accept_or3
+0001a1e1 t _jk_error_parse_accept_or3
+00015293 t _jk_managedBuffer_release
+00037150 t _jk_managedBuffer_release
+00015a54 t _jk_managedBuffer_resize
+00037740 t _jk_managedBuffer_resize
+00033170 t _jk_managedBuffer_setToStackBuffer
+0003a890 t _jk_objectStack_release
+00016e53 t _jk_objectStack_release
+00019e90 t _jk_objectStack_resize
+0003e040 t _jk_objectStack_resize
+00039e10 t _jk_objectStack_setToStackBuffer
+0003bea0 t _jk_object_for_token
+00018a20 t _jk_object_for_token
+0003da70 t _jk_parse_array
+0003d1a0 t _jk_parse_dictionary
+0003c2e0 t _jk_parse_is_newline
+0003acf0 t _jk_parse_next_token
+00017115 t _jk_parse_next_token
+00041320 t _jk_parse_number
+0001a351 t _jk_parse_number
+0003f250 t _jk_parse_string
+0002be70 t _jk_swizzleClassMethod
+0002bf80 t _jk_swizzleInstanceMethod
+0003a000 t _json_parse_it
+0005e5fc s _kAFZlibErrorDomain
+         U _kCFAllocatorDefault
+         U _kCFBooleanFalse
+         U _kCFBooleanTrue
+         U _kCFBundleDevelopmentRegionKey
+         U _kCFBundleIdentifierKey
+         U _kCFBundleLocalizationsKey
+         U _kCFBundleVersionKey
+         U _kCFNull
+         U _kCFRunLoopDefaultMode
+0005fc60 b _kOpenUDIDSessionCache
+00051350 s _levelnames
+0001ebec t _llutoa_async
+0005f628 b _log_cache_path
+         U _lround
+0001ea34 t _ltoa_async
+         U _mach_port_deallocate
+         U _mach_task_self_
+         U _mach_thread_self
+00001de0 T _main
+         U _malloc
+         U _memcmp
+0001dfc4 t _memcmp_async
+         U _memcpy
+0001df9f t _memcpy_async
+         U _memmove
+         U _memset
+0001df6a t _memset_async
+         U _method_getImplementation
+         U _method_getTypeEncoding
+0005f828 b _ms_cache_path
+         U _objc_autoreleasePoolPop
+         U _objc_autoreleasePoolPush
+         U _objc_begin_catch
+         U _objc_end_catch
+         U _objc_enumerationMutation
+         U _objc_getClass
+         U _objc_getMetaClass
+         U _objc_getProperty
+         U _objc_msgSend
+         U _objc_msgSendSuper2
+         U _objc_msgSend_fpret
+         U _objc_msgSend_stret
+         U _objc_release
+         U _objc_retain
+         U _objc_retainAutoreleasedReturnValue
+00042091 T _objc_retainedObject
+         U _objc_setProperty
+         U _objc_storeStrong
+         U _objc_sync_enter
+         U _objc_sync_exit
+00042099 T _objc_unretainedObject
+000420a1 T _objc_unretainedPointer
+         U _object_getClass
+         U _object_setIvar
+0005162c s _offsetsFromUTF8
+00051230 s _offsetsFromUTF8
+         U _open
+00027789 t _parse_required_member
+00027ae4 t _parse_uint64
+000424ed t _patch_lazy_pointers
+0005e814 s _plcrash__architecture__descriptor
+0005f1b4 s _plcrash__architecture__enum_values_by_name
+0005f160 s _plcrash__architecture__enum_values_by_number
+0005161c s _plcrash__architecture__value_ranges
+0005e9a4 s _plcrash__crash_report__application_info__descriptor
+0005e954 s _plcrash__crash_report__application_info__field_descriptors
+000514e4 s _plcrash__crash_report__application_info__field_indices_by_name
+000514ec s _plcrash__crash_report__application_info__number_ranges
+0005ec74 s _plcrash__crash_report__binary_image__descriptor
+0005ebac s _plcrash__crash_report__binary_image__field_descriptors
+00051548 s _plcrash__crash_report__binary_image__field_indices_by_name
+0005155c s _plcrash__crash_report__binary_image__number_ranges
+0005e634 s _plcrash__crash_report__descriptor
+0005ed28 s _plcrash__crash_report__exception__descriptor
+0005ecb0 s _plcrash__crash_report__exception__field_descriptors
+0005156c s _plcrash__crash_report__exception__field_indices_by_name
+00051578 s _plcrash__crash_report__exception__number_ranges
+0005f020 s _plcrash__crash_report__field_descriptors
+000515ec s _plcrash__crash_report__field_indices_by_name
+00024da7 t _plcrash__crash_report__free_unpacked
+00024c8f t _plcrash__crash_report__get_packed_size
+00024c2b t _plcrash__crash_report__init
+0005e600 s _plcrash__crash_report__init.init_value
+0005efe4 s _plcrash__crash_report__machine_info__descriptor
+0005ef44 s _plcrash__crash_report__machine_info__field_descriptors
+000515cc s _plcrash__crash_report__machine_info__field_indices_by_name
+000515dc s _plcrash__crash_report__machine_info__number_ranges
+0005160c s _plcrash__crash_report__number_ranges
+00024cdb t _plcrash__crash_report__pack
+00024d27 t _plcrash__crash_report__pack_to_buffer
+0005ef08 s _plcrash__crash_report__process_info__descriptor
+0005ee18 s _plcrash__crash_report__process_info__field_descriptors
+000515a4 s _plcrash__crash_report__process_info__field_indices_by_name
+000515bc s _plcrash__crash_report__process_info__number_ranges
+0005e74c s _plcrash__crash_report__processor__descriptor
+00051488 s _plcrash__crash_report__processor__encoding__default_value
+0005e6d4 s _plcrash__crash_report__processor__field_descriptors
+0005148c s _plcrash__crash_report__processor__field_indices_by_name
+00051498 s _plcrash__crash_report__processor__number_ranges
+0005e698 s _plcrash__crash_report__processor__type_encoding__descriptor
+0005e688 s _plcrash__crash_report__processor__type_encoding__enum_values_by_name
+0005e670 s _plcrash__crash_report__processor__type_encoding__enum_values_by_number
+00051478 s _plcrash__crash_report__processor__type_encoding__value_ranges
+0005eddc s _plcrash__crash_report__signal__descriptor
+0005ed64 s _plcrash__crash_report__signal__field_descriptors
+00051588 s _plcrash__crash_report__signal__field_indices_by_name
+00051594 s _plcrash__crash_report__signal__number_ranges
+000514bc s _plcrash__crash_report__system_info__architecture__default_value
+0005e918 s _plcrash__crash_report__system_info__descriptor
+0005e850 s _plcrash__crash_report__system_info__field_descriptors
+000514c0 s _plcrash__crash_report__system_info__field_indices_by_name
+000514d4 s _plcrash__crash_report__system_info__number_ranges
+000514b8 s _plcrash__crash_report__system_info__operating_system__default_value
+0005e7d8 s _plcrash__crash_report__system_info__operating_system__descriptor
+0005e7b8 s _plcrash__crash_report__system_info__operating_system__enum_values_by_name
+0005e788 s _plcrash__crash_report__system_info__operating_system__enum_values_by_number
+000514a8 s _plcrash__crash_report__system_info__operating_system__value_ranges
+0005eb70 s _plcrash__crash_report__thread__descriptor
+0005ead0 s _plcrash__crash_report__thread__field_descriptors
+00051528 s _plcrash__crash_report__thread__field_indices_by_name
+00051538 s _plcrash__crash_report__thread__number_ranges
+0005ea94 s _plcrash__crash_report__thread__register_value__descriptor
+0005ea44 s _plcrash__crash_report__thread__register_value__field_descriptors
+00051510 s _plcrash__crash_report__thread__register_value__field_indices_by_name
+00051518 s _plcrash__crash_report__thread__register_value__number_ranges
+0005ea08 s _plcrash__crash_report__thread__stack_frame__descriptor
+0005e9e0 s _plcrash__crash_report__thread__stack_frame__field_descriptors
+000514fc s _plcrash__crash_report__thread__stack_frame__field_indices_by_name
+00051500 s _plcrash__crash_report__thread__stack_frame__number_ranges
+00024d73 t _plcrash__crash_report__unpack
+00022211 t _plcrash_async_file_close
+000221db t _plcrash_async_file_flush
+000220ad t _plcrash_async_file_init
+000220db t _plcrash_async_file_write
+0002a898 t _plcrash_async_image_list_append
+0002a85f t _plcrash_async_image_list_free
+0002a82f t _plcrash_async_image_list_init
+0002a9fe t _plcrash_async_image_list_next
+0002a927 t _plcrash_async_image_list_remove
+0002a9c8 t _plcrash_async_image_list_set_reading
+0002208c t _plcrash_async_memcpy
+00028769 t _plcrash_async_signal_sigcode
+0002879d t _plcrash_async_signal_signame
+00020c3c t _plcrash_log_writer_add_image
+00020efc t _plcrash_log_writer_close
+00020f03 t _plcrash_log_writer_free
+0002081c t _plcrash_log_writer_init
+00020c78 t _plcrash_log_writer_remove_image
+00020c98 t _plcrash_log_writer_set_exception
+00020fc6 t _plcrash_log_writer_write
+00022014 t _plcrash_strerror
+0002ace3 t _plcrash_sysctl_int
+0002ac34 t _plcrash_sysctl_string
+00022240 t _plcrash_writer_pack
+00021abf t _plcrash_writer_write_binary_image
+00021cea t _plcrash_writer_write_exception
+00021558 t _plcrash_writer_write_machine_info
+0002164f t _plcrash_writer_write_process_info
+00021f7d t _plcrash_writer_write_processor_info
+00021e3f t _plcrash_writer_write_signal
+0002146b t _plcrash_writer_write_system_info
+00021749 t _plcrash_writer_write_thread
+000204c0 t _plframe_cursor_init
+0002059d t _plframe_cursor_next
+000204da t _plframe_cursor_thread_init
+00020728 t _plframe_get_freg
+00020616 t _plframe_get_reg
+00020732 t _plframe_get_regname
+00020380 t _plframe_read_addr
+000202fc t _plframe_strerror
+000203c0 t _plframe_test_thread_spawn
+0002047e t _plframe_test_thread_stop
+000235ef t _populate_nserror
+00002841 t _post_crash_callback
+         U _printf
+00024e77 t _protobuf_c_buffer_simple_append
+0005c278 d _protobuf_c_default_allocator
+000274dd t _protobuf_c_enum_descriptor_get_value
+00027444 t _protobuf_c_enum_descriptor_get_value_by_name
+00027638 t _protobuf_c_message_descriptor_get_field
+0002758f t _protobuf_c_message_descriptor_get_field_by_name
+00027180 t _protobuf_c_message_free_unpacked
+00024f36 t _protobuf_c_message_get_packed_size
+00025720 t _protobuf_c_message_pack
+00025de4 t _protobuf_c_message_pack_to_buffer
+000265d8 t _protobuf_c_message_unpack
+0005c274 d _protobuf_c_out_of_memory
+00024df4 t _protobuf_c_out_of_memory_default
+000276ea t _protobuf_c_service_descriptor_get_method_by_name
+00027438 t _protobuf_c_service_destroy
+00027353 t _protobuf_c_service_generated_init
+0005c28c d _protobuf_c_system_allocator
+         U _protocol_getMethodDescription
+         U _pthread_cond_init
+         U _pthread_cond_signal
+         U _pthread_cond_wait
+         U _pthread_create
+         U _pthread_join
+         U _pthread_mutex_init
+         U _pthread_mutex_lock
+         U _pthread_mutex_unlock
+         U _putchar
+         U _raise
+         U _read
+0001f7a2 t _read_from_log_file
+0001f964 t _read_llu_from_file
+         U _realloc
+         U _reallocf
+0002545c t _required_field_get_packed_size
+00025942 t _required_field_pack
+00025ff3 t _required_field_pack_to_buffer
+         U _sel_getUid
+000273cc t _service_machgen_invoke
+0005fc74 b _sharedReporter
+         U _sigaction
+         U _sigaltstack
+         U _signal
+0005c3ac d _signal_codes
+00022c7c t _signal_handler_callback
+0005fc78 b _signal_handler_context
+0005c2a4 d _signal_names
+         U _sleep
+0001e060 t _strcat_async
+         U _strcmp
+0001e097 t _strcmp_async
+0001e028 t _strcpy_async
+         U _strdup
+         U _strerror
+         U _strlen
+0001e00b t _strlen_async
+         U _strncmp
+         U _strsignal
+         U _strtod
+         U _strtoll
+         U _strtoull
+0005fc28 b _symbolDictionary
+         U _sysctl
+         U _sysctlbyname
+00024e2f t _system_alloc
+00024e5d t _system_free
+00027ba7 t _tag_pack
+         U _task_threads
+00020440 t _test_stack_thr
+         U _thread_get_state
+         U _thread_resume
+         U _thread_suspend
+         U _time
+00022764 t _uint64_pack
+00027c78 t _uint64_pack
+00022d35 t _uncaught_exception_handler
+0001e97b t _utoa_async
+         U _vm_deallocate
+         U _vm_read_overwrite
+         U _write
+0001f9c6 t _write_llu_to_file
+0001fa33 t _write_str_to_file
+0001f883 t _write_to_log_file
+0002218c t _writen
+000512f0 s _ytab
+0005c104 d dyld__mach_header
+         U dyld_stub_binder
+00001da0 t dyld_stub_binding_helper
+00001d60 T start

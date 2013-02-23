@@ -252,7 +252,7 @@ typedef struct {
 #pragma mark -
 
 /*
- * File: TBUndefined
+ * File: TBUndefined.app/TBUndefined
  * UUID: 60824DA0-0CAE-319C-B251-2723E4FB4250
  * Arch: i386
  *
